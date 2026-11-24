@@ -10,7 +10,7 @@ type IntroTextProps = {
 /** Eyebrow + H1 + lead paragraph used at the top of subpages. */
 export function IntroText({ eyebrow, title, lead }: IntroTextProps) {
   return (
-    <div className="flex max-w-intro flex-col gap-5">
+    <div className="flex max-w-intro flex-col gap-4">
       <Eyebrow>{eyebrow}</Eyebrow>
       <h1 className="font-serif text-title leading-display font-normal text-balance">{title}</h1>
       <p className="text-pretty text-muted">{lead}</p>

@@ -8,12 +8,12 @@ export function HomeHero() {
   return (
     <Section>
       <div className="mx-auto grid max-w-content grid-fit-420 items-center gap-14">
-        <div className="flex flex-col items-start gap-6">
+        <div className="flex flex-col items-start gap-5">
           <Eyebrow>Psycholog · [MIASTO]</Eyebrow>
           <h1 className="font-serif text-display leading-display font-normal text-balance">
             Rozmowa, w której jest miejsce na to, co trudne
           </h1>
-          <p className="max-w-lead text-xl text-pretty text-muted">
+          <p className="max-w-lead text-lg text-pretty text-muted">
             Konsultacje psychologiczne i psychoterapia indywidualna dla dorosłych. Spotkania stacjonarnie w [MIASTO]
             oraz online.
           </p>

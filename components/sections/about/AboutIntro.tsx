@@ -7,7 +7,7 @@ export function AboutIntro() {
     <Section>
       <div className="mx-auto grid max-w-content grid-fit-360 items-start gap-14">
         <Media className="h-130" label="Miejsce na portret" placeholder="[ZDJĘCIE: portret]" />
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           <Eyebrow>O mnie</Eyebrow>
           <h1 className="font-serif text-title leading-display font-normal text-balance">
             Jestem [IMIĘ], psycholog z [LICZBA] latami praktyki

@@ -2,7 +2,7 @@ import { Media } from "@/components/ui/Media";
 
 function DetailGroup({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="flex flex-col gap-1.5">
+    <div className="flex flex-col gap-1">
       <h2 className="font-serif text-h3 font-medium">{title}</h2>
       {children}
     </div>
@@ -11,7 +11,7 @@ function DetailGroup({ title, children }: { title: string; children: React.React
 
 export function ContactDetails() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-6">
       <DetailGroup title="Dane kontaktowe">
         <span>Telefon: [TELEFON]</span>
         <span>E-mail: [E-MAIL]</span>

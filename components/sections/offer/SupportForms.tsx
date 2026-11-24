@@ -28,7 +28,7 @@ export function SupportForms() {
     <Section padding="pt-8 pb-section">
       <div className="mx-auto grid max-w-content grid-fit-320 gap-6">
         {forms.map((form) => (
-          <div key={form.title} className="flex flex-col gap-3 rounded-card border border-line bg-white p-8">
+          <div key={form.title} className="flex flex-col gap-2 rounded-card border border-line bg-white p-8">
             <h2 className="font-serif text-h3-lg leading-snug font-medium">{form.title}</h2>
             <div className="text-xs font-semibold text-accent">{form.meta}</div>
             <p className="text-muted">{form.text}</p>

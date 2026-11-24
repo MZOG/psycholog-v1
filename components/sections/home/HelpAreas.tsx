@@ -26,7 +26,7 @@ export function HelpAreas() {
   return (
     <Section tone="white">
       <div className="mx-auto flex max-w-content flex-col gap-10">
-        <div className="flex max-w-narrow flex-col gap-3">
+        <div className="flex max-w-narrow flex-col gap-2">
           <SectionHeading>W czym mogę pomóc</SectionHeading>
           <p className="text-muted">
             Z różnymi trudnościami przychodzą do mnie osoby, które chcą lepiej zrozumieć siebie i odzyskać poczucie
@@ -35,7 +35,7 @@ export function HelpAreas() {
         </div>
         <div className="grid grid-fit-240 gap-6">
           {areas.map((area) => (
-            <div key={area.title} className="flex flex-col gap-2.5 rounded-card border border-line bg-cream p-7">
+            <div key={area.title} className="flex flex-col gap-2 rounded-card border border-line bg-cream p-7">
               <h3 className="font-serif text-h4 font-medium">{area.title}</h3>
               <p className="text-md text-muted">{area.text}</p>
             </div>

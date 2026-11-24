@@ -18,24 +18,23 @@
   --color-line-strong: #cfc7b6; /* footer divider */
   --color-field: #8a918d; /* form field borders */
 
-  /* Type scale (px, without built-in line-heights — text inherits 1.6).
+  /* Type scale (px, without built-in line-heights — text inherits 1.5).
      Reset Tailwind's defaults so e.g. `text-xl` doesn't bring its own line-height. */
   --text-*: initial;
   --text-2xs: 13px;
   --text-xs: 14px;
   --text-sm: 15px;
   --text-md: 16px;
-  --text-base: 17px;
+  --text-base: 16px;
   --text-lg: 18px;
-  --text-xl: 19px;
   --text-2xl: 20px;
   --text-h5: 22px;
   --text-h4: 24px;
   --text-logo: 25px;
   --text-h3: 26px;
   --text-h3-lg: 28px;
-  --text-h2-sm: 34px;
-  --text-h2: 38px;
+  --text-h2-sm: clamp(28px, 2vw + 20px, 34px);
+  --text-h2: clamp(30px, 2.5vw + 20px, 38px);
   --text-number: 44px;
   --text-title: clamp(36px, 4.5vw, 50px);
   --text-display: clamp(38px, 5vw, 56px);
@@ -43,7 +42,7 @@
   --leading-display: 1.1;
   --leading-heading: 1.15;
   --leading-snug: 1.2;
-  --leading-body: 1.6;
+  --leading-body: 1.5;
 
   --tracking-label: 0.06em;
   --tracking-eyebrow: 0.08em;

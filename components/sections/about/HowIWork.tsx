@@ -23,7 +23,7 @@ export function HowIWork() {
         <SectionHeading>Jak pracuję</SectionHeading>
         <div className="grid grid-fit-280 gap-10">
           {principles.map((item) => (
-            <div key={item.title} className="flex flex-col gap-2">
+            <div key={item.title} className="flex flex-col gap-1.5">
               <h3 className="font-serif text-h4 font-medium">{item.title}</h3>
               <p className="text-muted">{item.text}</p>
             </div>

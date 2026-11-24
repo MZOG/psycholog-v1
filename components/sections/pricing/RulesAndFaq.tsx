@@ -29,10 +29,10 @@ export function RulesAndFaq() {
             "Poufność i ochrona danych osobowych: [ODSYŁACZ DO POLITYKI PRYWATNOŚCI]",
           ]}
         />
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-5">
           <h2 className="font-serif text-h2-sm leading-heading font-normal">Najczęstsze pytania</h2>
           {faq.map((item) => (
-            <div key={item.question} className="flex flex-col gap-1.5">
+            <div key={item.question} className="flex flex-col gap-1">
               <h3 className="text-lg font-semibold">{item.question}</h3>
               <p className="text-muted">{item.answer}</p>
             </div>

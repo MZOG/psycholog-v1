@@ -11,9 +11,9 @@ type CtaBandProps = {
 export function CtaBand({ title, text, cta = "Umów konsultację" }: CtaBandProps) {
   return (
     <Section tone="accent">
-      <div className="mx-auto flex max-w-narrow flex-col items-center gap-5">
+      <div className="mx-auto flex max-w-narrow flex-col items-center gap-4">
         <h2 className="font-serif text-h2 leading-heading font-normal text-balance">{title}</h2>
-        <p className="text-lg">{text}</p>
+        <p>{text}</p>
         <ButtonLink href={routes.contact} variant="inverse">
           {cta}
         </ButtonLink>
